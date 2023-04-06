@@ -22,8 +22,5 @@ verifyToken = (req, res, next) => {
 };
 
 
-const authJwt = {
-  verifyToken,
-
-};
+const authJwt = verifyToken
 module.exports = authJwt;
